@@ -2,6 +2,15 @@ import React, { Suspense } from 'react'
 import Loading from '../loading'
 import TicketList from './TicketList'
 
+
+
+export const metadata = {
+  title: 'Dojo help desk | tickets',
+}
+
+
+
+
 const Tickets = () => {
   return (
     <main>
