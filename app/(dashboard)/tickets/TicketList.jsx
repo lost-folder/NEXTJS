@@ -28,7 +28,6 @@ const TicketList = async () => {
             </div>
             </Link>
           </div>
-
         ))}
         {tickets.length === 0 && (
           <p className="text-center">There are no open tickets, yay!</p>
